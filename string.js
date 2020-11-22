@@ -17,7 +17,7 @@ let findClose = (string) => {
     }
 
 let swap = (string, substring) => {    
-    var finish = findClose(string)+1    
+    let finish = findClose(string)+1    
     return substring+string.substring(finish)
     }
 
