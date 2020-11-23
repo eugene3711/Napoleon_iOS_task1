@@ -1,5 +1,3 @@
-test = ['MMXX','III','IV','IX', 'XI','MMMCMXCIX']
-
 class Solution:
     def __init__(self):
         self.name = "Solution"
@@ -30,6 +28,8 @@ class Solution:
             i += 1        
 
         return sum(numbersList)
+
+test = ['MMXX','III','IV','IX', 'XI','MMMCMXCIX']
 
 sol = Solution()
 
