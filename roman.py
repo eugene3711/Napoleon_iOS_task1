@@ -1,7 +1,4 @@
 class Solution:
-    def __init__(self):
-        self.name = "Solution"
-
     def romanToInt(self, s: str) -> int:
         
         translate = {
@@ -13,6 +10,7 @@ class Solution:
         'D': 500,
         'M': 1000
         }
+
         numbersList = []
 
         for figure in s:
@@ -33,6 +31,5 @@ test = ['MMXX','III','IV','IX', 'XI','MMMCMXCIX']
 
 sol = Solution()
 
-for one in test:    
-
+for one in test:
     print(f'{one} is {sol.romanToInt(one)}')
